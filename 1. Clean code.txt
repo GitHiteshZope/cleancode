@@ -1,0 +1,31 @@
+1. Don’t repeat yourself (dry)
+Do your absolute best to avoid duplicate code. Duplicate code is bad because it means that there's more than one place to alter something if you need to change some logic.
+
+2. Use searchable names (searchable_name)
+We will read more code than we will ever write. It's important that the code we do write is readable and searchable.
+
+3. Avoid nesting too deeply and return early (if_else)
+Too many if-else statements can make your code hard to follow. Explicit is better than implicit.
+
+4. Avoid Mental Mapping (mental_mapping)
+Don’t force the reader of your code to translate what the variable means. Explicit is better than implicit.
+
+5. Don't add unneeded context (unneeded_context)
+If your class/object name tells you something, don't repeat that in your variable name.
+
+6. Use identical comparison (identical_comparison)
+The simple comparison will convert the string into an integer. The comparison $a != $b returns FALSE but in fact it's TRUE! The string 42 is different than the integer 42.
+
+7. Function names should say what they do (function_names)
+
+8. Don't use flags as function parameters (flags_function)
+Flags tell your user that this function does more than one thing. Functions should do one thing. Split out your functions if they are following different code paths based on a boolean.
+
+9. Remove dead code (dead_code)
+Dead code is just as bad as duplicate code. There's no reason to keep it in your codebase. If it's not being called, get rid of it! It will still be safe in your version history if you still need it.
+
+10. Try to avoid else statements (only_if)
+
+
+
+
